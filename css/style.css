@@ -10,6 +10,13 @@ body {
     background-color: rgb(246, 248, 249);
 }
 
+main {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
 /* /common */
 
 
@@ -17,7 +24,7 @@ body {
 
 .background {
     background-color: white;
-    height: 100px;
+
 }
 
 #logo { 
@@ -28,15 +35,39 @@ body {
 
 .logo-text {
     font-size: 50px;
+    font-weight: 800;
     margin-left: 5px;
     vertical-align: middle;
     line-height: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* /header */
 
 
 /* main */
+
+.main-top {
+    padding: 10px;
+    margin-bottom: 1px solid grey;
+}
+
+.task {
+    background-color: rgb(71, 173, 241);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.section {
+    display: inline-block;
+    margin: 15px;
+    background-color: white;
+    color: grey;
+    padding: 9px;
+    border: 1px solid;
+    border-radius: 5px;
+}
 
 
 
