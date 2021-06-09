@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* common */
@@ -15,6 +16,12 @@ main {
     margin: 0 auto;
     background-color: white;
     margin-top: 50px;
+}
+
+section {
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 20px;
 }
 
 /* /common */
@@ -39,7 +46,7 @@ main {
     margin-left: 5px;
     vertical-align: middle;
     line-height: 100px;
-    font-family: 'Roboto', sans-serif;
+    
 }
 
 /* /header */
@@ -68,6 +75,39 @@ main {
     border: 1px solid;
     border-radius: 5px;
 }
+
+.titolo {
+    color: rgb(77, 81, 83)
+}
+
+.titolo h2 {
+    margin-bottom: 5px;
+}
+
+.check{
+    color: lightgreen;
+    margin-right: 5px;
+    background-color: white;
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.cross {
+    color: red;
+    margin-right: 5px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+
+
+.titolo p {
+    margin: 10px;
+}
+
 
 
 
